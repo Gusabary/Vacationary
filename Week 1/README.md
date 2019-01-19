@@ -16,11 +16,15 @@ In the directory is my learning stuff of Week 1.
 
 ### 1.17 Thu.
 
-**CSS:**Chapter 1, Chapter 2, Chapter 3 and a little bit of Chapter 4.
+**CSS:** Chapter 1, Chapter 2, Chapter 3 and a little bit of Chapter 4.
 
 ### 1.18 Fri.
 
 **CSS: **Chapter 4.
+
+### 1.19 Sat.
+
+**JavaScript:** the first half of the Chapter 1.
 
 ## Tasks：
 
@@ -28,8 +32,4 @@ In the directory is my learning stuff of Week 1.
 
 **task 2:** [mark letters](https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Introduction_to_HTML/Marking_up_a_letter).
 
-<<<<<<< HEAD
-##### Last-modified date: 2019.1.18, 11 p.m.
-=======
-##### Last-modified date: 2019.1.17, 9 p.m.
->>>>>>> c2ac28d952b6f091a56d6b71975ba0971ba648ef
+##### Last-modified date: 2019.1.19, 11 p.m.
