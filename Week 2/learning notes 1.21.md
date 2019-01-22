@@ -6,7 +6,7 @@
   >
   >在 JSON 中，只有字符串才能用作属性。
 
-+ [HTTP verbs 学习笔记](HTTP verbs.md)。
++ [HTTP verbs 学习笔记](HTTP-verbs.md)。
 
 + ES6.变量声明
 

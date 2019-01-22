@@ -10,4 +10,10 @@ In the directory is my learning stuff of Week 2.
 
 **HTML:** HTTP verbs: CRUD and a little bit of REST.
 
-##### Last-modified date: 2019.1.21, 9 p.m.
+### 1.22 Tue.
+
+*I have my [personal homepage](https://gusabary.github.io/) now!*
+
+**React:** Tutorial and a little bit of Docs Chapter 1.
+
+##### Last-modified date: 2019.1.22, 11 p.m.
