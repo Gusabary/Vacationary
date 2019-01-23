@@ -16,4 +16,8 @@ In the directory is my learning stuff of Week 2.
 
 **React:** Tutorial and a little bit of Docs Chapter 1.
 
-##### Last-modified date: 2019.1.22, 11 p.m.
+### 1.23 Wed.
+
+**React:** Docs Chapter 1.
+
+##### Last-modified date: 2019.1.23, 9 p.m.
