@@ -20,4 +20,8 @@ In the directory is my learning stuff of Week 2.
 
 **React:** Docs Chapter 1.
 
-##### Last-modified date: 2019.1.23, 9 p.m.
+### 1.24 Thu.
+
+**React:** environment configuration and my first React code!
+
+##### Last-modified date: 2019.1.24, 10 p.m.
