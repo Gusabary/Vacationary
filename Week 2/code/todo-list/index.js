@@ -6,10 +6,8 @@ class Hello extends React.Component {
     render() {
         return (
             <div>
-                <h1>Hello, world!</h1>
-                <h2>hi!</h2>
+                <h1>TODO LIST:</h1>
                 <InputBar />
-                <h3>haha!</h3>
             </div>
         );
     }
