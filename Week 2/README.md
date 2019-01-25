@@ -24,4 +24,8 @@ In the directory is my learning stuff of Week 2.
 
 **React:** environment configuration and my first React code!
 
-##### Last-modified date: 2019.1.24, 10 p.m.
+### 1.25 Fri.
+
+**React:** complete the todo-list code.
+
+##### Last-modified date: 2019.1.25, 7 p.m.
