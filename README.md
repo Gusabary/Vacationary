@@ -14,6 +14,12 @@ Listed below are some websites where I really got help:
 
   You can learn about ES6 here.
 
++ [**React**](https://react.docschina.org/) 
+
+  You can learn about React and configure environment for it here.
+
+  If you get confused with some expressions, [here](https://reactjs.org/) is the English version.
+
 With Yalun Lin Hsu.
 
-##### Last-modified date: 2019.1.22, 11 a.m.
+##### Last-modified date: 2019.2.6, 2 p.m.
