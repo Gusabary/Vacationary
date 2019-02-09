@@ -20,7 +20,7 @@
 
     >```react
     ><Avatar className={classes.avatar}>
-    >	<FolderIcon />
+    >		<FolderIcon />
     ></Avatar>
     >```
 
@@ -30,7 +30,7 @@
 
   >```jsx
   ><Link href="address" className={classes.link}>
-  >	Link
+  >		Link
   ></Link>
   >```
 
@@ -50,8 +50,8 @@
   >
   >```react
   ><MuiThemeProvider theme={theme}>
-  ><Button color="primary">Primary</Button>
-  ><Button color="secondary">Secondary</Button>
+  >	<Button color="primary">Primary</Button>
+  >	<Button color="secondary">Secondary</Button>
   ></MuiThemeProvider>
   >```
 
@@ -59,4 +59,6 @@
   >paddingTop: theme.spacing.unit * 10,
   >```
 
-+ 
++ 在[这里](https://material-ui.com/customization/default-theme/)查看 `theme` 对象包含的键。
+
+##### Last-modified date: 2019.2.9, 5 p.m.

@@ -16,4 +16,8 @@
 
 **Material-ui:** a little bit of Component Demos and API, start *[Ifohem](../code/Ifohem/)*.
 
-##### Last-modified date: 2019.2.8, 8 p.m.
+### 2.9 Sat.
+
+**Material-ui:** Customization, finish *Ifohem*.
+
+##### Last-modified date: 2019.2.9, 5 p.m.
