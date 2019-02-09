@@ -2,26 +2,25 @@ import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import { withStyles } from '@material-ui/core/styles';
 
-const styles = ({
+const styles = theme => ({
     bar: {
-        backgroundColor: "#ce93d8",
-        //marginLeft: -10,
+        marginRight: -theme.spacing.unit,
+        marginLeft: -theme.spacing.unit,
+        backgroundColor: theme.palette.primary.main,
     },
     title: {
-        paddingTop: 120,
-        paddingLeft: 500,
-        paddingBotton: 350,
-        //backgroundColor: red[500],
-        //color: red[50],
-        //align: "center",
+        paddingTop: theme.spacing.unit * 15,
+        paddingBotton: theme.spacing.unit * 44,
+        paddingLeft: theme.spacing.unit * 62,
+        fontWeight: 600,
     },
     subtitle: {
-        paddingTop: 20,
-        paddingLeft: 502,
-        paddingBotton: 200,
+        paddingTop: theme.spacing.unit * 2.5,
+        paddingBotton: theme.spacing.unit * 25,
+        paddingLeft: theme.spacing.unit * 63,
     },
     padding: {
-        paddingTop: 50,
+        paddingTop: theme.spacing.unit * 6,
     }
 })
 

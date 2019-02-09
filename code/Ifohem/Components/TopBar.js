@@ -7,25 +7,23 @@ import { withStyles } from '@material-ui/core/styles';
 import Home from '@material-ui/icons/Home';
 import AccountCircle from '@material-ui/icons/AccountCircle';
 
-const styles = ({
+const styles = theme => ({
     bar: {
-        backgroundColor: "#c6ff00",
+        backgroundColor: theme.palette.secondary.main,
     },
     title: {
-        paddingLeft: 20,
-        //align: "center",
+        paddingLeft: theme.spacing.unit * 2,
     },
     button: {
-        marginLeft: 800,
+        marginLeft: theme.spacing.unit * 100,
     },
     icon: {
-        marginTop: 8,
-        marginLeft: 8,
-        marginRight: -4,
-        color: "#212121"
+        marginTop: theme.spacing.unit,
+        marginRight: -theme.spacing.unit * 0.5,
+        marginLeft: theme.spacing.unit,
     },
     label: {
-        marginTop: -13,
+        marginTop: -theme.spacing.unit * 1.5,
     },
 })
 

@@ -1,17 +1,19 @@
 import React from 'react';
-import TopBar from './TopBar';
-import TitleBar from './TitleBar';
-import ExpansionBar from './ExpansionBar';
-import Content from './Content';
+import TopBar from './Components/TopBar';
+import TitleBar from './Components/TitleBar';
+import ExpansionBar from './Components/ExpansionBar';
+import Content from './Components/Content';
+import { MuiThemeProvider } from '@material-ui/core';
+import theme from './theme';
 
 function App() {
     return (
-        <React.Fragment>
+        <MuiThemeProvider theme={theme}>
             <TopBar />
             <TitleBar />
             <ExpansionBar />
             <Content />
-        </React.Fragment>
+        </MuiThemeProvider>
     );
 }
 

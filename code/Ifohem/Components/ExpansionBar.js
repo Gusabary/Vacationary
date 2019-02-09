@@ -8,18 +8,22 @@ import { withStyles } from '@material-ui/core/styles';
 import Chip from '@material-ui/core/Chip';
 import FaceIcon from '@material-ui/icons/Face'
 
-const styles = ({
+const styles = theme => ({
+    root: {
+        marginRight: -theme.spacing.unit,
+        marginLeft: -theme.spacing.unit,
+    },
     summary: {
-        marginTop: -20,
-        backgroundColor: "#ba68c8",
+        marginTop: -theme.spacing.unit * 2.5,
+        backgroundColor: theme.palette.primary.dark,
     },
     details: {
-        paddingTop: 20,
-        backgroundColor: "#ce93d8",
+        paddingTop: theme.spacing.unit * 2.5,
+        backgroundColor: theme.palette.primary.main,
     },
     chip: {
-        marginLeft: 20,
-        backgroundColor: "#e1bee7",
+        marginLeft: theme.spacing.unit * 2.5,
+        backgroundColor: theme.palette.primary.light,
     },
 })
 
@@ -27,7 +31,7 @@ function TitleBar(props) {
     const { classes } = props;
     return (
         <React.Fragment>
-            <ExpansionPanel>
+            <ExpansionPanel className={classes.root}>
                 <ExpansionPanelSummary className={classes.summary} expandIcon={<ExpandMoreIcon />}>
                     <Typography className={classes.heading}>
                         Choose a tag
