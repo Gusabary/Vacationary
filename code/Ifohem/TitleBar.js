@@ -5,6 +5,7 @@ import { withStyles } from '@material-ui/core/styles';
 const styles = ({
     bar: {
         backgroundColor: "#ce93d8",
+        //marginLeft: -10,
     },
     title: {
         paddingTop: 120,

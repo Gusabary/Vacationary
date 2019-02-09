@@ -2,6 +2,7 @@ import React from 'react';
 import TopBar from './TopBar';
 import TitleBar from './TitleBar';
 import ExpansionBar from './ExpansionBar';
+import Content from './Content';
 
 function App() {
     return (
@@ -9,6 +10,7 @@ function App() {
             <TopBar />
             <TitleBar />
             <ExpansionBar />
+            <Content />
         </React.Fragment>
     );
 }
