@@ -20,4 +20,8 @@
 
 **Material-ui:** Customization, finish *Ifohem*.
 
-##### Last-modified date: 2019.2.9, 5 p.m.
+### 2.10 Sun.
+
+**Redux:** most of the first two chapters.
+
+##### Last-modified date: 2019.2.10, 6 p.m.
