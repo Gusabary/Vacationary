@@ -14,4 +14,10 @@ Start the final task *MEAN*.
 
 Complete main UI, learning about router.
 
-##### Last-modified date: 2019.2.13, 8 p.m.
+### 2.14 Thu.
+
+Apply a little Redux to *MEAN*.
+
+Learn about JavaScript asynchronous mechanism.
+
+##### Last-modified date: 2019.2.14, 7 p.m.
