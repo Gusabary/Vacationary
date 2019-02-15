@@ -20,4 +20,10 @@ Apply a little Redux to *MEAN*.
 
 Learn about JavaScript asynchronous mechanism.
 
-##### Last-modified date: 2019.2.14, 7 p.m.
+### 2.15 Fri.
+
+Begin to connect the front and back end.
+
+Learn about Superagent, Postman and JWT token.
+
+##### Last-modified date: 2019.2.15, 10 p.m.
