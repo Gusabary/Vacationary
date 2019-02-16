@@ -26,4 +26,8 @@ Begin to connect the front and back end.
 
 Learn about Superagent, Postman and JWT token.
 
-##### Last-modified date: 2019.2.15, 10 p.m.
+### 2.16 Sat.
+
+Apply middleware to Redux.
+
+##### Last-modified date: 2019.2.16, 10 p.m.
