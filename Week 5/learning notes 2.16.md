@@ -15,7 +15,7 @@
   });
   ```
 
-  当 `enhancer` 仅由一个 `middlware` 构成时，可直接使用 `applyMiddleware` 方法：
+  当 `enhancer` 仅由一个 `middleware` 构成时，可直接使用 `applyMiddleware` 方法：
 
   ```react
   const enhancer = applyMiddleware(promiseMiddleware)
@@ -42,25 +42,25 @@
 
 + >+ 普通页面跳转：
   >
-  >  ```js
-  >  this.props.history.push("/targetURL");
-  >  ```
+  >```js
+  >this.props.history.push("/targetURL");
+  >```
   >
   >+ 带参数页面跳转：
   >
-  >  ```js
-  >  this.props.history.pushState({passParam: true}, "/targetURL");
-  >  ```
+  >```js
+  >this.props.history.pushState({passParam: true}, "/targetURL");
+  >```
   >
-  >  第一个参数为需要传递的参数，如果不需要传参数，则为 null。
+  >第一个参数为需要传递的参数，如果不需要传参数，则为 null。
   >
-  >  第二个参数为跳转目标页面。
+  >第二个参数为跳转目标页面。
   >
   >+ 目标页面获取参数：
   >
-  >  ```js
-  >  let temp = this.props.location.state;
-  >  ```
+  >```js
+  >let temp = this.props.location.state;
+  >```
 
 + 从当前页面跳转出去时，需要 
 

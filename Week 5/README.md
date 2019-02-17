@@ -30,4 +30,8 @@ Learn about Superagent, Postman and JWT token.
 
 Apply middleware to Redux.
 
-##### Last-modified date: 2019.2.16, 10 p.m.
+### 2.17 Sun.
+
+Enable *MEAN* to skip between pages properly.
+
+##### Last-modified date: 2019.2.17, 10 p.m.
