@@ -8,4 +8,8 @@ In the directory is my learning stuff of Week 6.
 
 Finish main work of *MEAN*, beautification remaining.
 
-##### Last-modified date: 2019.2.18, 8 p.m.
+### 2.19 Tue.
+
+Finish main work of beautification, just a very very small part left.
+
+##### Last-modified date: 2019.2.19, 9 p.m.
