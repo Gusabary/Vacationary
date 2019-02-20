@@ -12,4 +12,8 @@ Finish main work of *MEAN*, beautification remaining.
 
 Finish main work of beautification, just a very very small part left.
 
-##### Last-modified date: 2019.2.19, 9 p.m.
+### 2.20 Wed.
+
+*MEAN* complete.
+
+##### Last-modified date: 2019.2.20, 3 p.m.
