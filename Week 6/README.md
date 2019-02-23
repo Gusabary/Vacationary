@@ -16,4 +16,8 @@ Finish main work of beautification, just a very very small part left.
 
 *MEAN* complete.
 
-##### Last-modified date: 2019.2.20, 3 p.m.
+### 2.23 Sat.
+
+**React:** most of Chapter 4: Hooks. 
+
+##### Last-modified date: 2019.2.23, 4 p.m.
