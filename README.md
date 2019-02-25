@@ -11,7 +11,6 @@ You can learn about HTML, CSS and JavaScript here. They are basic knowledge abou
 If you get confused with some expressions, replace `zh-CN` with `en-US` in the URL to change language and you may understand them.
 
 + [ES6: a standard of JavaScript](https://www.jianshu.com/p/287e0bb867ae)
-
 + [JavaScript asynchronous mechanism](https://www.jianshu.com/p/e132b64f9297)
 
 ### [**React**](https://react.docschina.org/) 
