@@ -1,4 +1,4 @@
-# Winter Vacation
+# 2019-Winter-Vacation
 
 In the repository is my learning stuff during 2019 winter vacation.
 
@@ -52,4 +52,4 @@ There are also some documents about:
 + [react-router-dom](https://www.jianshu.com/p/8954e9fb0c7e): literally, router.
 + [Token](https://ninghao.net/blog/2834): a method for authentication.
 
-##### Last-modified date: 2019.2.20, 3 p.m.
+##### Last-modified date: 2019.8.4, 7 p.m.
