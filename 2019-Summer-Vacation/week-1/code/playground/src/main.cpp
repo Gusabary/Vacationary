@@ -25,8 +25,6 @@ const char *fragmentShaderSource = "#version 330 core\n"
 
 int main()
 {
-	std::cout << "here" << std::endl;
-	system("pause");
     // glfw: initialize and configure
     // ------------------------------
     glfwInit();
@@ -41,8 +39,6 @@ int main()
     // glfw window creation
     // --------------------
     GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "LearnOpenGL", NULL, NULL);
-	std::cout << "here" << std::endl;
-	system("pause");
     if (window == NULL)
     {
         std::cout << "Failed to create GLFW window" << std::endl;
@@ -129,7 +125,8 @@ int main()
     glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
     glEnableVertexAttribArray(0);
 
-    // note that this is allowed, the call to glVertexAttribPointer registered VBO as the vertex attribute's bound vertex buffer object so afterwards we can safely unbind
+    // note that this is allowed, 
+    // the call to glVertexAttribPointer registered VBO as the vertex attribute's bound vertex buffer object so afterwards we can safely unbind
     glBindBuffer(GL_ARRAY_BUFFER, 0); 
 
     // remember: do NOT unbind the EBO while a VAO is active as the bound element buffer object IS stored in the VAO; keep the EBO bound.
@@ -178,9 +175,7 @@ int main()
     // glfw: terminate, clearing all previously allocated GLFW resources.
     // ------------------------------------------------------------------
     glfwTerminate();
-	std::cout << "here" << std::endl;
-	system("pause");
-	return 0;
+    return 0;
 }
 
 // process all input: query GLFW whether relevant keys are pressed/released this frame and react accordingly
