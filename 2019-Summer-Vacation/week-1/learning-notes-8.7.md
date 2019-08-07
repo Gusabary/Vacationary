@@ -166,4 +166,6 @@ spec:
 
 还有一个地方要注意，就是第一次访问 Grafana dashboard 用户名是 admin ，密码是 prom-operator，进去之后别忘了改密码。
 
+*p.s. [this repo](<https://github.com/linxuyalun/devops/blob/master/doc/cloud-native.md#helm>) is really a treasure*
+
 ##### Last-modified date: 2019.8.7, 11 p.m.
