@@ -16,7 +16,7 @@ const char *vertexShaderSource ="#version 330 core\n"
     "out vec3 ourColor;\n"
     "void main()\n"
     "{\n"
-    "   gl_Position = vec4(aPos, 1.0);\n"
+    "   gl_Position = vec4(aPos.x, -aPos.y, aPos.z, 1.0);\n"
     "   ourColor = aColor;\n"
     "}\0";
 

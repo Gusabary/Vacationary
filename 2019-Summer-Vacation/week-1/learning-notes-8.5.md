@@ -82,6 +82,8 @@
   glGenBuffers(1, &VBO);
   ```
 
+  > 可以相同。-- 2019.8.7, tbc
+
 + 编译、链接着色器 -> 配置 VAO（将 VBO，EBO 绑定上去）-> 在渲染循环中使用着色器和 VAO
 
-##### Last-modified date: 2019.8.6, 10 a.m.
+##### Last-modified date: 2019.8.7, 11 a.m.

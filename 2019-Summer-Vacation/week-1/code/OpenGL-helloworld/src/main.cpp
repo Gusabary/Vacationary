@@ -25,8 +25,6 @@ const char *fragmentShaderSource = "#version 330 core\n"
 
 int main()
 {
-	std::cout << "here" << std::endl;
-	system("pause");
     // glfw: initialize and configure
     // ------------------------------
     glfwInit();
@@ -41,8 +39,6 @@ int main()
     // glfw window creation
     // --------------------
     GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "LearnOpenGL", NULL, NULL);
-	std::cout << "here" << std::endl;
-	system("pause");
     if (window == NULL)
     {
         std::cout << "Failed to create GLFW window" << std::endl;
@@ -178,8 +174,6 @@ int main()
     // glfw: terminate, clearing all previously allocated GLFW resources.
     // ------------------------------------------------------------------
     glfwTerminate();
-	std::cout << "here" << std::endl;
-	system("pause");
 	return 0;
 }
 
