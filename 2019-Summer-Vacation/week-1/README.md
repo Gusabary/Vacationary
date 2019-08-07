@@ -16,4 +16,8 @@ In the directory is my learning stuff of  Week 1.
 
 **OpenGL:** Section Shader.
 
-##### Last-modified date: 2019.8.7, 11 a.m.
+### 8.7 Wed.
+
+**Prometheus Operator:** helloworld
+
+##### Last-modified date: 2019.8.7, 11 p.m.
