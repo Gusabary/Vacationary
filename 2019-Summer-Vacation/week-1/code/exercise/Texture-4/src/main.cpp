@@ -7,7 +7,7 @@
 #include <stb_image.h>
 
 void framebuffer_size_callback(GLFWwindow *window, int width, int height);
-void processInput(GLFWwindow *window);
+void processInput(GLFWwindow *window, float *opacity);
 
 // settings
 const unsigned int SCR_WIDTH = 800;
@@ -52,12 +52,13 @@ int main()
 
     // set up vertex data (and buffer(s)) and configure vertex attributes
     // ------------------------------------------------------------------
+    float length = 0.5f;
     float vertices[] = {
-        // positions          // colors           // texture coords
-        0.5f, 0.5f, 0.0f, 1.0f, 0.0f, 0.0f, 1.0f, 1.0f,   // top right
-        0.5f, -0.5f, 0.0f, 0.0f, 1.0f, 0.0f, 1.0f, 0.0f,  // bottom right
-        -0.5f, -0.5f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0f, 0.0f, // bottom left
-        -0.5f, 0.5f, 0.0f, 1.0f, 1.0f, 0.0f, 0.0f, 1.0f   // top left
+        // positions      // colors         // texture coords
+        0.5f, 0.5f, 0.0f, 1.0f, 0.0f, 0.0f, 0.5f + length, 0.5f + length,   // top right
+        0.5f, -0.5f, 0.0f, 0.0f, 1.0f, 0.0f, 0.5f + length, 0.5f - length,  // bottom right
+        -0.5f, -0.5f, 0.0f, 0.0f, 0.0f, 1.0f, 0.5f - length, 0.5f - length, // bottom left
+        -0.5f, 0.5f, 0.0f, 1.0f, 1.0f, 0.0f, 0.5f - length, 0.5f + length,  // top left
     };
     unsigned int indices[] = {
         0, 1, 3, // first triangle
@@ -96,7 +97,7 @@ int main()
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
     // set texture filtering parameters
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
     // load image, create texture and generate mipmaps
     int width, height, nrChannels;
     stbi_set_flip_vertically_on_load(true);
@@ -113,12 +114,11 @@ int main()
     }
     stbi_image_free(data);
 
-
     glGenTextures(1, &texture2);
     glBindTexture(GL_TEXTURE_2D, texture2);
     // set the texture wrapping parameters
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT); // set texture wrapping to GL_REPEAT (default wrapping method)
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_MIRRORED_REPEAT); // set texture wrapping to GL_REPEAT (default wrapping method)
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_MIRRORED_REPEAT);
     // set texture filtering parameters
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
@@ -144,11 +144,12 @@ int main()
 
     // render loop
     // -----------
+    float opacity = 0.2;
     while (!glfwWindowShouldClose(window))
     {
-        // input 
+        // input
         // -----
-        processInput(window);
+        processInput(window, &opacity);
 
         // render
         // ------
@@ -162,6 +163,7 @@ int main()
 
         // render container
         ourShader.use();
+        ourShader.setFloat("opacity", opacity);
         glBindVertexArray(VAO);
         glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
 
@@ -185,10 +187,20 @@ int main()
 
 // process all input: query GLFW whether relevant keys are pressed/released this frame and react accordingly
 // ---------------------------------------------------------------------------------------------------------
-void processInput(GLFWwindow *window)
+void processInput(GLFWwindow *window, float *opacity)
 {
     if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
         glfwSetWindowShouldClose(window, true);
+    if (glfwGetKey(window, GLFW_KEY_UP) == GLFW_PRESS) {
+        *opacity += 0.0001f;
+        if (*opacity > 1.0f)
+            *opacity = 1.0f;
+    }
+    if (glfwGetKey(window, GLFW_KEY_DOWN) == GLFW_PRESS){
+        *opacity -= 0.0001f;
+        if (*opacity < 0.0f)
+            *opacity = 0.0f;
+    }
 }
 
 // glfw: whenever the window size changed (by OS or user resize) this callback function executes

@@ -14,10 +14,14 @@ In the directory is my learning stuff of  Week 1.
 
 ### 8.6 Tue.
 
-**OpenGL:** Section Shader.
+**OpenGL:** Section Shaders.
 
 ### 8.7 Wed.
 
 **Prometheus Operator:** helloworld
 
-##### Last-modified date: 2019.8.7, 11 p.m.
+### 8.8 Thu.
+
+**OpenGL:** Section Textures.
+
+##### Last-modified date: 2019.8.8, 11 p.m.
