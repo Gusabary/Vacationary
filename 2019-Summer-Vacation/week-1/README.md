@@ -24,4 +24,8 @@ In the directory is my learning stuff of  Week 1.
 
 **OpenGL:** Section Textures.
 
-##### Last-modified date: 2019.8.8, 11 p.m.
+### 8.9 Fri.
+
+**OpenGL:** Section Transformations and Coordinate Systems.
+
+##### Last-modified date: 2019.8.9, 8 p.m.

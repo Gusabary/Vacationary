@@ -210,10 +210,10 @@ int main()
         glBindTexture(GL_TEXTURE_2D, texture2);
 
         glm::mat4 view = glm::mat4(1.0f);
-        view = glm::translate(view, glm::vec3(0.0f, 0.0f, -3.0f));
+        view = glm::translate(view, glm::vec3(0.0f, -0.0f, -3.0f));
         glm::mat4 projection = glm::mat4(1.0f);
-        //projection = glm::perspective(glm::radians(45.0f), (float)SCR_WIDTH / ((float)SCR_HEIGHT), 0.1f, 100.0f);
-        projection = glm::ortho(-5.0f, 5.0f, -5.0f, 5.0f, 0.1f, 100.0f);
+        projection = glm::perspective(glm::radians(45.0f), (float)SCR_WIDTH / ((float)SCR_HEIGHT), 0.1f, 100.0f);
+        //projection = glm::ortho(-5.0f, 5.0f, -5.0f, 5.0f, 0.1f, 100.0f);
         ourShader.use();
 
         int viewLoc = glGetUniformLocation(ourShader.ID, "view");
@@ -228,7 +228,8 @@ int main()
             glm::mat4 model = glm::mat4(1.0f);
             model = glm::translate(model, cubePositions[i]);
             float angle = 20.0f * i;
-            model = glm::rotate(model, (float)glfwGetTime() * (i + 1) / 2, glm::vec3(1.0f, 0.3f, 0.5f));
+            if (i % 3 == 0)
+                model = glm::rotate(model, (float)glfwGetTime() * (i + 1) / 2, glm::vec3(1.0f, 0.3f, 0.5f));
             int modelLoc = glGetUniformLocation(ourShader.ID, "model");
             glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 
