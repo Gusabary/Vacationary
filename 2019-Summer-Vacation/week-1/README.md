@@ -28,4 +28,8 @@ In the directory is my learning stuff of  Week 1.
 
 **OpenGL:** Section Transformations and Coordinate Systems.
 
-##### Last-modified date: 2019.8.9, 8 p.m.
+### 8.10 Sat.
+
+**OpenGL:** Section Camera, finishing Chapter Getting Started.
+
+##### Last-modified date: 2019.8.10, 7 p.m.
