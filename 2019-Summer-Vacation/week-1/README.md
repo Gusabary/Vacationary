@@ -32,4 +32,8 @@ In the directory is my learning stuff of  Week 1.
 
 **OpenGL:** Section Camera, finishing Chapter Getting Started.
 
-##### Last-modified date: 2019.8.10, 7 p.m.
+### 8.11 Sun.
+
+**OpenGL:** Chapter Lighting, Section Colors.
+
+##### Last-modified date: 2019.8.11, 11 p.m.
