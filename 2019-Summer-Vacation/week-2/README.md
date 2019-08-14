@@ -12,5 +12,9 @@ In the directory is my learning stuff of Week 2.
 
 **OpenGL:** Section Materials, Lighting maps, Light casters and Multiple lights, finishing Chapter Lighting.
 
-##### Last-modified date: 2019.8.13, 10 p.m.
+### 8.14 Wed.
+
+**Python:** Day 01 - 06.
+
+##### Last-modified date: 2019.8.14, 10 p.m.
 
