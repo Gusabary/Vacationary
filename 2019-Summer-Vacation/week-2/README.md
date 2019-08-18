@@ -28,5 +28,9 @@ In the directory is my learning stuff of Week 2.
 
 **Python:** Day 16 - 20.
 
-##### Last-modified date: 2019.8.16, 11 p.m.
+### 8.18 Sun.
+
+**Python:** Day 21 - 41.
+
+##### Last-modified date: 2019.8.18, 10 p.m.
 
