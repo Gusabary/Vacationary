@@ -8,4 +8,8 @@ In the directory is my learning stuff of Week 3.
 
 **Python:** Django, a little bit.
 
-##### Last-modified date: 2019.8.19, 8 p.m.
+### 8.20 Tue.
+
+**Machine Learning:** Chapter 1 - 8.
+
+##### Last-modified date: 2019.8.20, 8 p.m.
