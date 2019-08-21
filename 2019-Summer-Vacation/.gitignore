@@ -4,3 +4,5 @@
 **/lib/
 **/*.dll
 **/Makefile
+**/__pycache__
+**/venv

@@ -12,4 +12,8 @@ In the directory is my learning stuff of Week 3.
 
 **Machine Learning:** Chapter 1 - 8.
 
-##### Last-modified date: 2019.8.20, 8 p.m.
+### 8.21 Wed.
+
+**Machine Learning:** Chapter 9, Hello World.
+
+##### Last-modified date: 2019.8.21, 4 p.m.
