@@ -20,4 +20,8 @@ In the directory is my learning stuff of Week 3.
 
 **Machine Learning:** Chapter 10 - 12, Logistic Regression.
 
-##### Last-modified date: 2019.8.22, 4 p.m.
+### 8.23 Fri.
+
+**Machine Learning:** Chapter 13 - 16, Deep Learning.
+
+##### Last-modified date: 2019.8.23, 11 p.m.
