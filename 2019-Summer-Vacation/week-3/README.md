@@ -24,4 +24,8 @@ In the directory is my learning stuff of Week 3.
 
 **Machine Learning:** Chapter 13 - 16, Deep Learning.
 
-##### Last-modified date: 2019.8.23, 11 p.m.
+### 8.24 Sat.
+
+**Machine Learning:** Chapter 17 - 21, Convolutional Neural Networks.
+
+##### Last-modified date: 2019.8.24, 10 p.m.
