@@ -28,4 +28,8 @@ In the directory is my learning stuff of Week 3.
 
 **Machine Learning:** Chapter 17 - 21, Convolutional Neural Networks.
 
-##### Last-modified date: 2019.8.24, 10 p.m.
+### 8.25 Sun.
+
+**Flutter: ** Hello, world!
+
+##### Last-modified date: 2019.8.25, 10 p.m.
