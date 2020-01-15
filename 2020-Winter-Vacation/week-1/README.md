@@ -16,4 +16,8 @@ In the directory is my learning stuff of Week 1.
 
 **Kubernetes:** Cluster Architecture, Containers and a little bit about Workloads, Concepts.
 
-##### Last-modified date: 2020.1.14, 9 p.m.
+### 1.15 Wed.
+
+**Kubernetes:** another little bit about Pods, Workloads, Concepts.
+
+##### Last-modified date: 2020.1.15, 11 p.m.
