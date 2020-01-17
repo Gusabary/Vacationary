@@ -24,4 +24,8 @@ In the directory is my learning stuff of Week 1.
 
 **Kubernetes:** Workloads, Concepts.
 
-##### Last-modified date: 2020.1.16, 8 p.m.
+### 1.17 Fri.
+
+**Kubernetes:** Services, Load Balancing, and Networking, Concepts.
+
+##### Last-modified date: 2020.1.17, 9 p.m.
