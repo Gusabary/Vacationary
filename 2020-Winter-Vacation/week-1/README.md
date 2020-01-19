@@ -32,4 +32,8 @@ In the directory is my learning stuff of Week 1.
 
 **Kubernetes:** Storage, Concepts.
 
-##### Last-modified date: 2020.1.18, 10 p.m.
+### 1.19 Sun.
+
+**Kubernetes:** most part of Configuration, Concepts.
+
+##### Last-modified date: 2020.1.19, 11 p.m.
