@@ -8,4 +8,8 @@ In the directory is my learning stuff of Week 2.
 
 **Kubernetes:** the rest part of Configuration, Security, Policies and Scheduling, Concepts.
 
-##### Last-modified date: 2020.1.20, 10 p.m.
+### 1.21 Tue.
+
+**Git:** the first three chapters, except 3.6 and 3.7 sections.
+
+##### Last-modified date: 2020.1.21, 11 p.m.
