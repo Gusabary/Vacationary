@@ -16,4 +16,8 @@ In the directory is my learning stuff of Week 2.
 
 **Git:** 3.6, 3.7 sections, and 7.1 ~ 7.7 sections.
 
-##### Last-modified date: 2020.1.22, 10 p.m.
+### 1.23 Thu.
+
+**Git:** the rest sections of Chapter 7 and Chapter 10.
+
+##### Last-modified date: 2020.1.23, 9 p.m.
