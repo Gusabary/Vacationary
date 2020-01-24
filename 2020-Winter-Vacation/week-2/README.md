@@ -20,4 +20,12 @@ In the directory is my learning stuff of Week 2.
 
 **Git:** the rest sections of Chapter 7 and Chapter 10.
 
-##### Last-modified date: 2020.1.23, 9 p.m.
+### 1.24 Fri.
+
+**Kafka:** a little bit.
+
+**Nginx:** another little bit, Beginner's Guide.
+
+*Happy New Year~*
+
+##### Last-modified date: 2020.1.24, 9 p.m.
