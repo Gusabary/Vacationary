@@ -28,4 +28,8 @@ In the directory is my learning stuff of Week 2.
 
 *Happy New Year~*
 
-##### Last-modified date: 2020.1.24, 9 p.m.
+### 1.25 Sat.
+
+**Fission:** Core Components, Concepts.
+
+##### Last-modified date: 2020.1.25, 10 p.m.

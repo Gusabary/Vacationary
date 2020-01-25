@@ -1,6 +1,6 @@
 # Learning notes of Week 2
 
-## 1.24 Thu.
+## 1.24 Fri.
 
 ### Kafka 基本概念
 
@@ -48,4 +48,4 @@ Kafka 有五类核心 API：
 + location 配置项的第一个参数可以是一个正则表达式，以 `~` 开头，也可以是刚才说的路径，也叫 prefix。在匹配的时候，优先匹配正则表达式，没有的话再匹配最长 prefix
 + location 配置项的花括号中可以用 proxy_pass 配置项指定被代理的服务
 
-##### Last-modified date: 2020.1.24, 8 p.m.
+##### Last-modified date: 2020.1.25, 11 a.m.
