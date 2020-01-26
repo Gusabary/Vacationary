@@ -42,9 +42,8 @@ apt-mark hold kubelet kubeadm kubectl
 ```bash
 kubeadm init \
 	 --image-repository registry.aliyuncs.com/google_containers \   # 国内镜像源
-	 --service-cidr=10.100.0.1/16									# cidr，最好设一下（
 	 --pod-network-cidr=192.168.0.0/16								# calico
-	 # 其他还有一些可选参数，比如 nodename 啥的，最重要的就是镜像源了
+	 # 其他还有一些可选参数，比如 nodename 啥的
 	 
 # 没这几步的话，kubectl 访问 apiserver 会报 8080 端口的错误：
 # The connection to the server localhost:8080 was refused – did you specify the right    # host or port?
@@ -100,5 +99,4 @@ uks-1   Ready    <none>   4h6m    v1.17.2
 
 :tada::tada::tada:
 
-##### Last-modified date: 2020.1.26, 2 p.m.
-
+##### Last-modified date: 2020.1.26, 7 p.m.

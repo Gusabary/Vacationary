@@ -32,4 +32,18 @@ In the directory is my learning stuff of Week 2.
 
 **Fission:** Core Components, Concepts.
 
-##### Last-modified date: 2020.1.25, 10 p.m.
+### 1.26 Sun.
+
+`install-script/` 目录中是集群预装脚本、kubeadm 搭建 k8 集群脚本以及安装 fission 的脚本。
+
+前两个脚本接受 slave 节点作为参数，第三个脚本直接使用。
+
+```bash
+./pre-install.sh 10.0.0.x 10.0.0.y
+./k8s-install.sh 10.0.0.x 10.0.0.y
+./fission-install.sh
+```
+
+*Hello, Kubeadm. Hello, Fission.*
+
+##### Last-modified date: 2020.1.26, 7 p.m.
