@@ -12,4 +12,8 @@ In the directory is my learning stuff of Week 3.
 
 vector, new, BST, SBT, AVL Tree, Red-Black Tree.
 
-##### Last-modified date: 2020.1.28, 11 p.m.
+### 1.29 Wed.
+
+B-Tree, B+ Tree, B* Tree.
+
+##### Last-modified date: 2020.1.29, 9 p.m.
