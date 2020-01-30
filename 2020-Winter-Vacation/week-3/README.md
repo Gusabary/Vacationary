@@ -16,4 +16,8 @@ vector, new, BST, SBT, AVL Tree, Red-Black Tree.
 
 B-Tree, B+ Tree, B* Tree.
 
-##### Last-modified date: 2020.1.29, 9 p.m.
+### 1.30 Thu.
+
+CMake, init FlowChar.
+
+##### Last-modified date: 2020.1.30, 8 p.m.
