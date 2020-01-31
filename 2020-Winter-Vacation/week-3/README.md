@@ -18,6 +18,10 @@ B-Tree, B+ Tree, B* Tree.
 
 ### 1.30 Thu.
 
-CMake, init FlowChar.
+CMake, init *FlowChar*.
 
-##### Last-modified date: 2020.1.30, 8 p.m.
+### 1.31 Fri.
+
+*FlowChar:* lexical analysis.
+
+##### Last-modified date: 2020.1.31, 7 p.m.
