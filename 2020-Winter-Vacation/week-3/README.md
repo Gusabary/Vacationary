@@ -24,4 +24,8 @@ CMake, init *FlowChar*.
 
 *FlowChar:* lexical analysis.
 
-##### Last-modified date: 2020.1.31, 7 p.m.
+### 2.1 Sat.
+
+*FlowChar:* parsing.
+
+##### Last-modified date: 2020.2.1, 9 p.m.
