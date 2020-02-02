@@ -28,4 +28,8 @@ CMake, init *FlowChar*.
 
 *FlowChar:* parsing.
 
-##### Last-modified date: 2020.2.1, 9 p.m.
+### 2.2 Sun.
+
+*FlowChar:* backend.
+
+##### Last-modified date: 2020.2.2, 7 p.m.
