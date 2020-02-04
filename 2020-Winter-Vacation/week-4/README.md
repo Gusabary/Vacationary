@@ -8,4 +8,8 @@ In the directory is my learning stuff of Week 3.
 
 *FlowChar:* backend.
 
-##### Last-modified date: 2020.2.3, 5 p.m.
+### 2.4 Tue.
+
+*FlowChar:* mainly complete.
+
+##### Last-modified date: 2020.2.4, 6 p.m.
