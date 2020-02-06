@@ -16,4 +16,8 @@ In the directory is my learning stuff of Week 4.
 
 *FlowChar:* finish.
 
-##### Last-modified date: 2020.2.5, 10 p.m.
+### 2.6 Thu.
+
+**Unity:** first two and half chapters of tutorial: John Lemon's Haunted Jaunt.
+
+##### Last-modified date: 2020.2.6, 9 p.m.
