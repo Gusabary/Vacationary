@@ -20,4 +20,8 @@ In the directory is my learning stuff of Week 4.
 
 **Unity:** first two and half chapters of tutorial: John Lemon's Haunted Jaunt.
 
-##### Last-modified date: 2020.2.6, 9 p.m.
+### 2.7 Fri.
+
+**Unity:** finish tutorial: John Lemon's Haunted Jaunt.
+
+##### Last-modified date: 2020.2.7, 8 p.m.
