@@ -24,4 +24,10 @@ In the directory is my learning stuff of Week 4.
 
 **Unity:** finish tutorial: John Lemon's Haunted Jaunt.
 
-##### Last-modified date: 2020.2.7, 8 p.m.
+### 2.8 Sat.
+
+**Screeps:** not that interesting.
+
+**Ansible:** a little bit.
+
+##### Last-modified date: 2020.2.8, 6 p.m.
