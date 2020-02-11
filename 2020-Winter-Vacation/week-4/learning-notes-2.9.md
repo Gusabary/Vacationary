@@ -109,6 +109,6 @@
 
     clone 或 fork 出的子进程拥有和父进程一样的 system call 限制
 
-    调用 execve 时，原先的限制会被保存起来
+    调用 execve 时，原先的限制仍然会起作用（所谓 preserved 是这个意思）
 
-##### Last-modified date: 2020.2.9, 10 p.m.
+##### Last-modified date: 2020.2.11, 1 p.m.
