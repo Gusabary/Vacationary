@@ -8,4 +8,8 @@ In the directory is my learning stuff of Week 6.
 
 **Hexo:** init, generate and deploy.
 
-##### Last-modified date: 2020.2.17, 7 p.m.
+### 2.18 Tue.
+
+Something about OS Chapter, CS-Notes.
+
+##### Last-modified date: 2020.2.18, 7 p.m.
