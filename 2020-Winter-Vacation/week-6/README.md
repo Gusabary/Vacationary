@@ -12,4 +12,8 @@ In the directory is my learning stuff of Week 6.
 
 Something about OS Chapter, CS-Notes.
 
-##### Last-modified date: 2020.2.18, 7 p.m.
+### 2.19 Wed.
+
+Design Pattern, CS-Notes.
+
+##### Last-modified date: 2020.2.19, 6 p.m.
