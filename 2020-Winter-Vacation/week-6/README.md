@@ -16,4 +16,8 @@ Something about OS Chapter, CS-Notes.
 
 Design Pattern, CS-Notes.
 
-##### Last-modified date: 2020.2.19, 6 p.m.
+### 2.20 Thu.
+
+Network of CS-Notes, multi-thread and type cast of C++.
+
+##### Last-modified date: 2020.2.20, 7 p.m.
