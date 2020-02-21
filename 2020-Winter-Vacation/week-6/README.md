@@ -20,4 +20,8 @@ Design Pattern, CS-Notes.
 
 Network of CS-Notes, multi-thread and type cast of C++.
 
-##### Last-modified date: 2020.2.20, 7 p.m.
+### 2.21 Fri.
+
+virtual keyword and memory layout of object in C++.
+
+##### Last-modified date: 2020.2.21, 8 p.m.
