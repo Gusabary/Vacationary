@@ -24,4 +24,8 @@ Network of CS-Notes, multi-thread and type cast of C++.
 
 virtual keyword and memory layout of object in C++.
 
-##### Last-modified date: 2020.2.21, 8 p.m.
+### 2.22 Sat.
+
+something about GMock.
+
+##### Last-modified date: 2020.2.22, 8 p.m.
