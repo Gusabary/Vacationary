@@ -28,4 +28,8 @@ virtual keyword and memory layout of object in C++.
 
 something about GMock.
 
-##### Last-modified date: 2020.2.22, 8 p.m.
+### 2.23 Sun.
+
+*[my personal blog](<http://gusabary.cn/>)*
+
+##### Last-modified date: 2020.2.23, 6 p.m.
