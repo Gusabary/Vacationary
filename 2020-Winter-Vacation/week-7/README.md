@@ -8,4 +8,8 @@ In the directory is my learning stuff of Week 7.
 
 something about C++, like sizeof, copy constructor and inline function.
 
-##### Last-modified date: 2020.2.24, 8 p.m.
+### 2.25 Tue.
+
+static keyword in C++.
+
+##### Last-modified date: 2020.2.25, 6 p.m.
