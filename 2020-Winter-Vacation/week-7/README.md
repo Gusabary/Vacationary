@@ -12,4 +12,8 @@ something about C++, like sizeof, copy constructor and inline function.
 
 static keyword in C++.
 
-##### Last-modified date: 2020.2.25, 6 p.m.
+### 2.26 Wed.
+
+something about C++, like STL.
+
+##### Last-modified date: 2020.2.26, 7 p.m.
