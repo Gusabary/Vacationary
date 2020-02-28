@@ -16,4 +16,8 @@ static keyword in C++.
 
 something about C++, like STL.
 
-##### Last-modified date: 2020.2.26, 7 p.m.
+### 2.28 Fri.
+
+STL Allocator in C++.
+
+##### Last-modified date: 2020.2.28, 5 p.m.
