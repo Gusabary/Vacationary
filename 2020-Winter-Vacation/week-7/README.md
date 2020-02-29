@@ -20,4 +20,8 @@ something about C++, like STL.
 
 STL Allocator in C++.
 
-##### Last-modified date: 2020.2.28, 5 p.m.
+### 2.29 Sat.
+
+STL Algorithm in C++.
+
+##### Last-modified date: 2020.2.29, 5 p.m.
