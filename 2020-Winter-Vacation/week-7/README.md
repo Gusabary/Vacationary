@@ -24,4 +24,8 @@ STL Allocator in C++.
 
 STL Algorithm in C++.
 
-##### Last-modified date: 2020.2.29, 5 p.m.
+### 3.1 Sun.
+
+STL Functor in C++.
+
+##### Last-modified date: 2020.3.1, 5 p.m.
